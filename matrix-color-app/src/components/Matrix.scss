@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap:5px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.reset-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: darkgreen;
+}
+
